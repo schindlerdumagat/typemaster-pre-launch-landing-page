@@ -1,9 +1,9 @@
 import { TypographyPropTypes } from "types/typographyPropTypes";
 
-export default function H3({ children }: TypographyPropTypes) {
+export default function H3({ children, className }: TypographyPropTypes) {
 
     return (
-        <h3 className="text-darkblue text-h23 uppercase font-black">{children}</h3>
+        <h3 className={`text-darkblue text-h3 uppercase font-black ${className}`}>{children}</h3>
     )
 
 }

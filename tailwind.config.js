@@ -24,13 +24,14 @@ export default {
     fontFamily: {
       sans: ['Barlow', 'serif'],
     },
-    fontSize: {
-      h1: ['3.5rem', 1],
-      h2: ['2rem', 1.125],
-      h3: ['1.5rem', 1.167],
-      p: ['1rem', 1.625],
+    extend: {
+      fontSize: {
+        h1: ['3.5rem', 1],
+        h2: ['2rem', 1.125],
+        h3: ['1.5rem', 1.167],
+        p: ['1rem', 1.625],
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
